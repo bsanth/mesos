@@ -1,6 +1,4 @@
-# Mesosphere Front-end challenge.
-
-### Dashboard for Mesos
+# Dashboard for Mesos
 
 UI to
 
@@ -30,4 +28,4 @@ From root folder,
 2. Angular JS
 3. jQuery
 
-[Image alt link](https://imgur.com/RR5dCVP)
+[Demo](https://imgur.com/RR5dCVP)
