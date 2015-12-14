@@ -1,0 +1,180 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+   background-color: #000000;
+   color: #ffffff;
+}
+
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+@media (min-width: 600px) {
+  .sidebar {
+    background-color: #1E1E1E;
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    color: #ffffff;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 600px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+  border-bottom: 0px;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  padding: 40px;
+  margin: 10px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  background-color: #1E1E1E;
+}
+
+a {
+   color: #ffffff;
+}
+
+.available-apps {
+   margin-top: 10px;
+}
+
+.available-apps> li {
+   background-color: #141414;
+}
+
+.available-apps-title {
+   font-size: 0.8em;
+}
+
+.glyphicon {
+   font-weight: 300;
+}
+
+li.hadoop {
+   border-left: 5px solid #F507A3;
+}
+
+li.rails {
+   border-left: 5px solid #3C2DEE;
+}
+
+li.chronos {
+   border-left: 5px solid #01A8FB;
+}
+
+li.storm {
+   border-left: 5px solid #2BDF9A;
+}
+
+li.spark {
+   border-left: 5px solid #69FA1A;
+}
+
+.hadoop {
+   background-color: #F507A3;
+}
+
+.rails {
+   background-color: #3C2DEE;
+}
+
+.chronos {
+   background-color: #01A8FB;
+}
+
+.storm {
+   background-color: #2BDF9A;
+}
+
+.spark {
+   background-color: #69FA1A;
+}
+
+.nav-sidebar > li {
+   padding: 10px 20px;
+}
+
+.controls {
+   float: right;
+}
+
+@media (max-width: 768px) {
+   .col-sm-offset-3.main {
+       margin-left: 25%;
+   }
+}
+
+.sidebar-app-title {
+   text-transform: capitalize;
+}
+
+.time-started {
+   color: #000000;
+}

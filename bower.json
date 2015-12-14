@@ -1,0 +1,25 @@
+{
+  "name": "angular-boilerplate",
+  "description": "Angular boilerplate",
+  "main": "index.html",
+  "authors": [
+    "Santhosh Kumar Bala Krishnan"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/bsanth/angular-boilerplate",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "jquery": "~2.1.4",
+    "angular-ui-router": "~0.2.15",
+    "bootstrap": "~3.3.6"
+  }
+}
